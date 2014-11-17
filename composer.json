@@ -1,0 +1,22 @@
+{
+    "name":         "kitbrennan90/free-email-checker",
+    "description":  "A library that identifies whether an email belongs to a free email domain",
+    "homepage":     "https://github.com/kitbrennan90/free-email-checker",
+    "type":         "Library",
+    "keywords":     ["email","free","checker","generic"],
+    "license":      "MIT",
+    "authors":      [
+        {"name": "Kit Brennan"}
+    ],
+    "require":      {
+        "php": ">= 5.3.3"
+    },
+    "require-dev":  {
+        "phpunit/phpunit": "4.3.*"
+    },
+    "autoload":     {
+        "psr-4":    {
+            "FreeEmailChecker\\": "FreeEmailChecker"
+        }
+    }
+}
